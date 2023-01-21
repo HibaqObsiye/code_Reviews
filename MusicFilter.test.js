@@ -24,4 +24,7 @@ describe("musicFilter", () => {
     it('returns 60 if value is above 60', () => {
         expect(musicFilter([61,40, 40],60,40)).toEqual([60,40, 40])
     })
+    it('returns 1000 if upper limit is 1000', () => {
+        expect(musicFilter([60,10,45,60,1500],1000,40)).toEqual([60,40,45,60,1000])
+    })
 })
