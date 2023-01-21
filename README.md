@@ -1,4 +1,4 @@
-<!-- company that makes digital audio plugins. Musicians apply filter to track to change how the track sounds. Build a band pass filter -->
+<!-- company that makes digital audio plugins. Musicians apply filter to track to change how the track sounds. Build a band pass filter
 
 Input: Array of integers, each integer is a frequency. If value is lower than the lower limit it should be brought down to the lower limit value. Vice versa for a value higher than the higher value. If within range, leave it as it is.
 
@@ -14,4 +14,4 @@ if user defines value
  [40,60,40,60],40, 60    [40,60,40,60]
 
  [40,40, 70] 40, 60      [40,40,60]
- 
+  -->
