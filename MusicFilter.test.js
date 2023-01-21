@@ -17,7 +17,11 @@ describe("musicFilter", () => {
     //     expect(musicFilter(10001)).toEqual(1000)
     // })
 
-    it('returns an unmodified array if values are within the ranges', () => {
+    it('returns 40 is below 40', () => {
         expect(musicFilter([60,40, 39],60,40)).toEqual([60,40, 40])
+    })
+
+    it('returns 60 if value is above 60', () => {
+        expect(musicFilter([61,40, 40],60,40)).toEqual([60,40, 40])
     })
 })
